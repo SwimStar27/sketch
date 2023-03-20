@@ -1,0 +1,31 @@
+body{
+    text-align:center;
+background:linear-gradient(to bottom right, #e3c2ff,#99f8ff);
+}
+#label{
+    color: aqua;
+}
+#confidence{
+    color:purple;
+}
+
+canvas{
+    border: 2px dashed gray;
+    animation-name: baker;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes baker{
+    from{
+        box-shadow: 1px 1px 40px gold ;
+    }
+    to{
+        box-shadow: 1px 1px 40px navy;
+    }
+}
+
+#canva{
+    margin-top: 420px;
+}
